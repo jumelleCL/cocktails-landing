@@ -1,10 +1,13 @@
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger, SplitText } from "gsap/all";
+import Cocktails from "./components/Cocktails";
+import Hero from "./components/Hero";
+import About from "./components/About";
 
 export default function Home() {
   return (
-    <div className="flex-center h-screen">
-      <h1 className="text-3xl text-indigo-300">APP</h1>
+    <div>
+      <Hero />
+      <Cocktails />
+      <About />
     </div>
   );
 }
