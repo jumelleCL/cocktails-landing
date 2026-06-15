@@ -17,7 +17,7 @@ export default function About() {
     scrollTimeline
       .from(titleSplit.words, {
         opacity: 0,
-        duration: 1,
+        duration: 0.6,
         yPercent: 100,
         ease: "expo.out",
         stagger: 0.02,
@@ -26,7 +26,7 @@ export default function About() {
         opacity: 0,
         duration: 1,
         ease: "expo.inOut",
-        stagger: 0.04,
+        stagger: 0.01,
       });
   });
   return (
